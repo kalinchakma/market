@@ -2,7 +2,8 @@
 /js/
 /webfonts/
 
-*.html
-*.php
-*.css
-*.js
+!*.html
+!*.php
+!*.css
+!*.js
+!*.json
