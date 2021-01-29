@@ -1,0 +1,62 @@
+/**
+All common css
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: robotBold;
+    src: url(fonts/RobotoCondensed-Bold.ttf);
+}
+@font-face {
+    font-family: robotBoldItalic;
+    src: url(fonts/RobotoCondensed-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: robotItalic;
+    src: url(fonts/RobotoCondensed-Italic.ttf);
+}
+
+@font-face {
+    font-family: robotLight;
+    src: url(fonts/RobotoCondensed-Light.ttf);
+}
+
+@font-face {
+    font-family: robotLightItalic;
+    src: url(fonts/RobotoCondensed-LightItalic.ttf);
+}
+@font-face {
+    font-family: regular;
+    src: url(fonts/RobotoCondensed-Regular.ttf);
+}
+body {
+    font-family: regular;
+}
+:root {
+    --w: 200px;
+    --h: 200px;
+    --bg: red;
+}
+
+.experiment {
+    --bg: blue;
+    width: var(--w);
+    height: var(--h);
+    background: var(--bg);
+}
+
+.experiment2 {
+  
+    width: var(--w);
+    height: var(--h);
+    background: var(--bg);
+}
+P{
+    color: rgb(6, 214, 6);
+}
+
+

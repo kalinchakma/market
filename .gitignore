@@ -1,9 +1,0 @@
-/css/
-/js/
-/webfonts/
-
-!*.html
-!*.php
-!*.css
-!*.js
-!*.json
