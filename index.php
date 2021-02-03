@@ -9,7 +9,7 @@ getHeader();
         if (isset($_GET['logout'])) {
             $_SESSION['user']  = null;
             $_SESSION['login'] = false;
-            header('Location: index.php');
+            header('Location: ./');
         } 
     } 
 ?>
