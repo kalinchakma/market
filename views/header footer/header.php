@@ -31,7 +31,7 @@
                     </button>
                 </form>
                 <ul class="menu-list">
-                    <li><a href="index.php">Home</a></li>
+                    <li><a href="./">Home</a></li>
                     <li><a href="register-user.php">Register</a></li>
                     <li><a href="#">Theme</a></li>
                     <li>
