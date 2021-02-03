@@ -23,7 +23,7 @@ getHeader();
                $userResource = fopen("./users/$users[$username]", "r") or die("unable to open user file");
                $resource = json_decode(fread($userResource,filesize("./users/$users[$username]")), true);
                if ($resource['password'] === $password) {
-                   header('Location: index.php');
+                   header('Location: ./');
                    $_SESSION['user'] = $resource['firstname']." ".$resource['lastname'];
                    $_SESSION['login'] = true;
                } else {
