@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/main.css">
     <?php
     echo $_SERVER['PHP_SELF'];
-    if ($_SERVER['PHP_SELF'] == '/market/register-user.php' || $_SERVER['PHP_SELF'] == '/market/login-user.php') {
+    if ($_SERVER['PHP_SELF'] == '/register-user.php' || $_SERVER['PHP_SELF'] == '/login-user.php') {
         ?>
         <link rel="stylesheet" href="css/register.css">
     <?php
