@@ -1,3 +1,6 @@
+<?php
+    session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +9,13 @@
     <title>Free Market</title>
     <link rel="stylesheet" href="css/fontawesome-all.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <?php
+    if ($_SERVER['PHP_SELF'] == '/market/register-user.php' || $_SERVER['PHP_SELF'] == '/market/login-user.php') {
+        ?>
+        <link rel="stylesheet" href="css/register.css">
+    <?php
+    }
+    ?>
 </head>
 <body>
     <header class="wrapper-full">
@@ -21,9 +31,19 @@
                     </button>
                 </form>
                 <ul class="menu-list">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">User</a></li>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="register-user.php">Register</a></li>
                     <li><a href="#">Theme</a></li>
+                    <li>
+                        <?php
+                        if ($_SESSION['login']) {
+                            echo '<a href="index.php?logout=yes">Logout</a>';
+                        } else {
+                            echo '<a href="login-user.php">Login</a>';
+                        }
+                        ?>
+                        
+                    </li>
                     <li>
                         <span class="user-logo">
                             <img class="img" src="img/user-logo.jpg" alt="logo">

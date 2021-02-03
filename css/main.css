@@ -35,6 +35,7 @@ All common css
 }
 body {
     font-family: regular;
+    color: #fff;
 }
 
 /*
@@ -154,4 +155,6 @@ header .wrapper .header-menu .search-form button i {
 .banner-section {
     height: 100vh;
     background-color: #161f29;
+    color: #fff;
+    
 }

@@ -1,0 +1,62 @@
+
+.banner-section {
+    height: 100vh;
+    background-color: #161f29;
+    color: #fff;
+    overflow: hidden;
+}
+.login-form {
+    width: 40%;
+    height: auto;
+    margin: 0 auto;
+    background-color: #1d2a38;
+    padding: 20px;
+    padding-bottom: 40px;
+    box-shadow: 0px 0px 8px -6px #fff;
+    border-radius: 7px;
+}
+.login-form p {
+    color: #ffffff;
+    text-align: center;
+}
+.login-form p a {
+    color: rgb(5, 236, 236);
+}
+.login-form form {
+    width: 100%;
+    height: auto;
+   
+}
+.login-form h1 {
+    text-align: center;
+    width: 100%;
+    padding: 10px 0px;
+    background-color: #138a1f;
+    cursor: default;
+    border-radius: 7px;
+}
+.login-form .form-container {
+    width: 60%;
+    margin: 0 auto;
+}
+.login-form .form-container form label {
+    display: block;
+    margin-top: 30px;
+}
+.login-form .form-container form input {
+    width: 100%;
+    display: block;
+    background-color: #fff;
+    padding: 10px 10px;
+    margin-top: 10px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    
+}
+.login-form .form-container form input[type=submit] {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 30px;
+    cursor: pointer;
+}
