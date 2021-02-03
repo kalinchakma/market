@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/fontawesome-all.min.css">
     <link rel="stylesheet" href="css/main.css">
     <?php
+    echo $_SERVER['PHP_SELF'];
     if ($_SERVER['PHP_SELF'] == '/market/register-user.php' || $_SERVER['PHP_SELF'] == '/market/login-user.php') {
         ?>
         <link rel="stylesheet" href="css/register.css">

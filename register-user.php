@@ -17,8 +17,7 @@ getHeader();
         && isset($_POST['username']) 
         && isset($_POST['password'])) {
             $filepath = './users/user.json';
-            $userFile = fopen($filepath, 'r') or die("unable to create user");
-            $size = filesize($filepath);
+            $userFile = fopen($filepath, 'r') or die("unable to open file system");
             if ($size !== 0) {
                $filetext = json_decode(fread($userFile, filesize($filepath)), true);
                $username = $_POST['username'];
