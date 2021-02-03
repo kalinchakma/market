@@ -5,7 +5,6 @@ getHeader();
 ?>
 <?php
     if(isset($_SESSION["user"])){
-        echo "welcome ".$_SESSION["user"];
         if (isset($_GET['logout'])) {
             $_SESSION['user']  = null;
             $_SESSION['login'] = false;
@@ -18,7 +17,9 @@ getHeader();
 <section class="wrapper-full banner-section">
 <div style="height: 10vh;width: 100%"></div>
 <!-- #1 -->
-    <p>Content not avaiavle in this site</p>
+    <p>
+    Welcome <?php echo $_SESSION['user'];?>
+    </p>
 <!-- #! -->
 <div class="clr"></div>
 </section>
