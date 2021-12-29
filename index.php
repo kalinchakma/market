@@ -23,6 +23,7 @@ getHeader();
 <!-- #! -->
 <div class="clr">
     This is middle ware
+    <!-- comment from git edit -->
 </div>
 </section>
 <!-- test banner -->
