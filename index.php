@@ -21,7 +21,9 @@ getHeader();
     Welcome <?php echo $_SESSION['user'];?>
     </p>
 <!-- #! -->
-<div class="clr"></div>
+<div class="clr">
+    This is middle ware
+</div>
 </section>
 <!-- test banner -->
 <!-- body end -->
